@@ -1,3 +1,31 @@
+@media screen and (max-width: 640px) {
+    header {
+        position: static;
+    }
+    body {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        position: static;
+    }
+    body {
+        width: 75%;
+    }
+}
+
+
+@media screen and (max-width: 980px) {
+    header {
+        position: static;
+    }
+    body {
+        width: 100%;
+    }
+}
+
 p {
     font-family: arial;
     color: #777777;
